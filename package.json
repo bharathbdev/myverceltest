@@ -1,0 +1,22 @@
+{
+  "name": "dhs",
+  "version": "46.0.0",
+  "description": "web aplliain bacekdn",
+  "main": "app.js",
+  "scripts": {
+    "normalhttp": "nodemon index.js",
+    "expresscode": "nodemon express.js",
+    "db": "nodemon expresswithdb.js",
+    "middleware": "nodemon expresswithmiddleware.js",
+    "auth": "nodemon jwtauth.js"
+  },
+  "author": "hnvn",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.1.0",
+    "nodemon": "^3.1.14"
+  }
+}
